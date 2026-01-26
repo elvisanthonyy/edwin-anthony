@@ -36,7 +36,7 @@ export default function Home() {
       <NavBar scrollToResume={scrollToResume} isResumeInView={isResumeInView} />
       <div className="flex w-40 h-90 -top-5 relative mx-auto">
         <Image
-          src={"/picture.svg"}
+          src={"picture.svg"}
           height={1000}
           width={1000}
           alt="picture"
@@ -47,7 +47,7 @@ export default function Home() {
         <InfoMain />
         <div className="w-[40%] mt-15">
           <Image
-            src={"/illustration.svg"}
+            src={"illustration.svg"}
             height={2000}
             width={2000}
             alt="illustration"
