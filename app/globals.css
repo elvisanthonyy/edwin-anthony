@@ -13,6 +13,7 @@
   --color-navbar-back: #1f1e1e;
   --color-navactive-btn: #434242;
   --color-nav-text: #cfcfcf;
+  --color-footer-btn: #2e2e2e;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -34,4 +35,64 @@ body {
 
 .inter-font {
   font-family: sans-serif;
+}
+
+@keyframes info-animation-frames {
+  0% {
+    height: 0px;
+  }
+
+  100% {
+    height: 120px;
+  }
+}
+
+@keyframes head-animation-frames {
+  0% {
+    transform: translateY(-1000px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes nav-animation-frames {
+  0% {
+    transform: translateX(2000);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes illus-animation-frames {
+  0% {
+    transform: translateX(-1000);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.info-animation {
+  animation: info-animation-frames 2.7s ease-in-out;
+}
+
+.head-animation {
+  animation: head-animation-frames 1s ease-in;
+}
+
+.nav-animation {
+  animation: nav-animation-frames 2s ease-in-out;
+}
+
+.illus-animation {
+  animation: illus-animation-frames 2s ease-in-out;
 }
