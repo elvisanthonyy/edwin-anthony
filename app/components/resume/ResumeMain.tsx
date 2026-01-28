@@ -11,7 +11,7 @@ const ResumeMain = () => {
   return (
     <div className="w-full h-100">
       <div
-        className={`w-full text-3xl ${theBouquetList.className} h-15 flex items-center border-b-[1px] border-b-navactive-btn/20`}
+        className={`w-full text-2xl md:text-3xl ${theBouquetList.className} h-15 flex items-center border-b-[1px] border-b-navactive-btn/20`}
       >
         Resume
       </div>

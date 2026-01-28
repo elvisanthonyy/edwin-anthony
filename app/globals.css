@@ -82,7 +82,7 @@ body {
 }
 
 .info-animation {
-  animation: info-animation-frames 2.7s ease-in-out;
+  animation: info-animation-frames 3s ease-in-out;
 }
 
 .head-animation {
@@ -94,5 +94,5 @@ body {
 }
 
 .illus-animation {
-  animation: illus-animation-frames 2s ease-in-out;
+  animation: illus-animation-frames 4s ease-in-out;
 }

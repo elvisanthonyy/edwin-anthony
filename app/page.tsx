@@ -89,7 +89,7 @@ export default function Home() {
           setAngle(deg / 7);*/
         }}
         className="flex cursor-pointer 
-        transition-all ease-in duration-900 left-[50%] -translate-x-[50%] head-animation w-40 h-90 -top-5 absolute mx-auto"
+        transition-all ease-in duration-900 left-[50%] -translate-x-[50%] head-animation w-30 md:w-40 h-90 -top-15 md:-top-5 absolute mx-auto"
         style={{
           transform: `rotate(${angle}deg) translateX(${pos.x}px)`,
         }}
@@ -102,32 +102,32 @@ export default function Home() {
           className="w-full"
         />
       </div>
-      <main className="w-full pt-80 flex flex-col items-center">
+      <main className="w-full pt-60 md:pt-80 flex flex-col items-center">
         <InfoMain />
-        <div className="w-[40%] illus-animation  p-7 mt-16">
+        <div className="w-[90%] md:w-[40%] illus-animation  md:p-7 mt-10 md:mt-16">
           <Image
             src={"Illustration.svg"}
-            height={2000}
-            width={2000}
+            height={500}
+            width={500}
             alt="illustration"
             className="w-full"
           />
         </div>
         <div
           ref={workRef.ref}
-          className={`${workRef.isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-20"} transition-all duration-700 ease-in w-[40%] mt-16}`}
+          className={`${workRef.isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-20"} transition-all duration-700 ease-in w-[85%] md:w-[40%] mt-5 md:mt-16}`}
         >
           <WorkMain />
         </div>
         <div
           ref={resumeRef.ref}
-          className={`w-[40%] mb-20 mt-16 ${resumeRef.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"} transition-all duration-700 ease-in`}
+          className={`w-[85%] md:w-[40%] mb-0 md:mb-20 mt-16 ${resumeRef.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"} transition-all duration-700 ease-in`}
         >
           <ResumeMain />
         </div>
         <div
           ref={contactRef.ref}
-          className={`${contactRef.isVisible ? "opacity-100" : "opacity-0"} transition-all duration-700 ease-in w-[45%] mt-16}`}
+          className={`${contactRef.isVisible ? "opacity-100" : "opacity-0"} transition-all duration-700 ease-in w-[88%] md:w-[45%] md:mt-16}`}
         >
           <ContactMe />
         </div>

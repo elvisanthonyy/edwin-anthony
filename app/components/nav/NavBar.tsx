@@ -21,7 +21,7 @@ const NavBar = ({
     });
   };
   return (
-    <div className="z-30 px-1 nav-animation fixed left-[50%] text-nav-text items-center justify-between text-[15px] -translate-x-[50%] flex min-w-89.5 border-navactive-btn border rounded-[3000px] h-10 bg-navbar-back mx-auto mt-8 py-1">
+    <div className="z-30 px-1 w-[90%] nav-animation fixed left-[50%] text-nav-text items-center justify-between text-[9px] md:text-[15px] -translate-x-[50%] flex md:min-w-89.5 md:w-auto border-navactive-btn border rounded-[3000px] h-11  md:h-10 bg-navbar-back mx-auto mt-6 md:mt-8 py-1">
       <div
         onClick={scrollToTop}
         className={`flex transition-all hover:px-4  hover:bg-navactive-btn/50 duration-500 ease-in cursor-pointer justify-center mx-1 items-center rounded-4xl h-full ${!isResumeInView && "bg-navactive-btn"} px-1`}
@@ -48,7 +48,7 @@ const NavBar = ({
       </div>
       <div
         onClick={scrollToContact}
-        className={`${isContactInView && "bg-navactive-btn"} px-4 transition-all h-full flex items-center duration-500 ease-in hover:px-5 rounded-2xl hover:mx-2 hover:bg-navactive-btn/50 cursor-pointer`}
+        className={`${isContactInView && "bg-navactive-btn"} shrink-0 px-4 transition-all h-full flex items-center duration-500 ease-in hover:px-5 rounded-2xl hover:mx-2 hover:bg-navactive-btn/50 cursor-pointer`}
       >
         Say Hello
       </div>
