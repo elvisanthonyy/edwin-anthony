@@ -14,6 +14,8 @@
   --color-navactive-btn: #434242;
   --color-nav-text: #cfcfcf;
   --color-footer-btn: #2e2e2e;
+  --color-workcard-border: #f9f9f9;
+  --color-resume-card-date: #6c7075;
 }
 
 @media (prefers-color-scheme: dark) {

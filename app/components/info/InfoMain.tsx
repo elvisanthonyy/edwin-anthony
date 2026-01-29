@@ -1,5 +1,6 @@
-import React from "react";
+"use client";
 import localFont from "next/font/local";
+import { useRouter } from "next/navigation";
 
 const theBouquetList = localFont({
   src: "../../../public/fonts/The_Bouquet_List.ttf",
@@ -7,21 +8,27 @@ const theBouquetList = localFont({
 });
 
 const InfoMain = () => {
+  const router = useRouter();
   return (
     <div className="w-[88%] md:w-[40%] h-30  mx-auto text-center">
       <div className="info-animation overflow-hidden">
         <div
-          className={`${theBouquetList.className} font-medium text-[26px] md:text-[32px] mb-3`}
+          className={`${theBouquetList.className} font-medium text-[32px] md:text-[32px] mb-3`}
         >
           Hi I'm Edwin Anthony
         </div>
-        <div className="font-light text-xs md:text-sm">
+        <div className="font-light text-xs md:text-[16px]">
           <span className="font-semibold">A Digital Illustrator</span> and
-          <span className="font-semibold ml-1">Product Designer </span> with
-          over four years of experience. I specialize in UI and Visual Design,
+          <span className="font-regular ml-1">Product Designer </span> with over
+          four years of experience. I specialize in UI and Visual Design,
           crafting intuitive and visually striking experiences that solve
           problems and engage users.{" "}
-          <span className="text-blue-500 underline">Read more</span>
+          <span
+            onClick={() => router.push("/about")}
+            className="text-blue-500 underline cursor-pointer"
+          >
+            Read more
+          </span>
         </div>
       </div>
     </div>

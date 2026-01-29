@@ -10,31 +10,31 @@ const theBouquetList = localFont({
 const ContactMe = () => {
   return (
     <div
-      className={`flex rounded-2xl flex-col  items-center justify-end h-64.5 bg-white my-5 mb-20 w-full`}
+      className={`flex relative rounded-2xl flex-col  items-center justify-end h-64.5 bg-white my-5 mb-20 w-full`}
     >
-      <div className={`text-3xl ${theBouquetList.className}`}>
+      <div className={`text-[40px] relative top-9 ${theBouquetList.className}`}>
         I'm sure you're convinced
       </div>
-      <div className="flex h-45 overflow-hidden w-full ">
-        <div className="h-full">
+      <div className="flex items-center relative h-51.5 overflow-hidden w-full ">
+        <div className="flex shrink-0 w-[247.14px]  mt-5">
           <Image
             src={"left-contact-illus.svg"}
             height={1000}
             width={1000}
             alt="left illus"
-            className="h-full"
+            className="w-full"
           />
         </div>
-        <div className="h-13 md:h-16 mt-12 text-sm md:text-md shrink-0 w-40 md:w-50 rounded-[300px] text-white flex justify-center items-center bg-navbar-back">
+        <div className="h-13 md:h-16 text-sm md:text-md shrink-0 w-40 md:w-50 rounded-[300px] text-white flex justify-center items-center bg-navbar-back">
           Contact Me
         </div>
-        <div className="h-full">
+        <div className="flex shrink-0 w-[247.14px]">
           <Image
             src={"right-contact-illus.svg"}
             height={1000}
             width={1000}
             alt="left illus"
-            className="h-full"
+            className="w-full"
           />
         </div>
       </div>

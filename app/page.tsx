@@ -104,7 +104,7 @@ export default function Home() {
       </div>
       <main className="w-full pt-60 md:pt-80 flex flex-col items-center">
         <InfoMain />
-        <div className="w-[90%] md:w-[40%] illus-animation  md:p-7 mt-10 md:mt-16">
+        <div className="w-[90%] md:w-[43%] illus-animation mt-10 md:mt-16">
           <Image
             src={"Illustration.svg"}
             height={500}
@@ -115,7 +115,7 @@ export default function Home() {
         </div>
         <div
           ref={workRef.ref}
-          className={`${workRef.isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-20"} transition-all duration-700 ease-in w-[85%] md:w-[40%] mt-5 md:mt-16}`}
+          className={`${workRef.isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-20"} transition-all duration-700 ease-in w-[85%] md:w-[43%] mt-5 md:mt-16}`}
         >
           <WorkMain />
         </div>
@@ -127,7 +127,7 @@ export default function Home() {
         </div>
         <div
           ref={contactRef.ref}
-          className={`${contactRef.isVisible ? "opacity-100" : "opacity-0"} transition-all duration-700 ease-in w-[88%] md:w-[45%] md:mt-16}`}
+          className={`${contactRef.isVisible ? "opacity-100" : "opacity-0"} transition-all duration-700 ease-in w-[88%] md:w-[45%]  md:mt-16}`}
         >
           <ContactMe />
         </div>

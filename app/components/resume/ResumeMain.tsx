@@ -20,26 +20,31 @@ const ResumeMain = () => {
           companyName="Mainstack"
           position="UI & Visual Design"
           time="Nov 2024"
+          logo="mainstack.svg"
         />
         <ResumeComp
           companyName="Tecton Studio"
           position="Product Design"
           time="Aug 2024"
+          logo="tecton.svg"
         />
         <ResumeComp
           companyName="OneBeam"
           position="Product Design"
           time="Aug 2024"
+          logo="onebeam.svg"
         />
         <ResumeComp
           companyName="Cruz"
           position="Digital Illustrator"
           time="July 2024"
+          logo="cruz.svg"
         />
         <ResumeComp
           companyName="Xspark360"
           position="Digital Illustrator"
           time="Jan 2022"
+          logo="spark.svg"
         />
       </div>
     </div>
