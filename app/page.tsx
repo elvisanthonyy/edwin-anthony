@@ -127,7 +127,7 @@ export default function Home() {
         </div>
         <div
           ref={contactRef.ref}
-          className={`${contactRef.isVisible ? "opacity-100" : "opacity-0"} transition-all duration-700 ease-in w-[88%] md:w-[45%]  md:mt-16}`}
+          className={`${contactRef.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} transition-all duration-700 ease-in w-[88%] md:w-[45%]  md:mt-16}`}
         >
           <ContactMe />
         </div>

@@ -9,7 +9,7 @@ const theBouquetList = localFont({
 
 const WorkMain = () => {
   return (
-    <div className="w-full md:h-80">
+    <div className="w-full h-auto md:h-80">
       <div
         className={`w-full text-2xl md:text-3xl ${theBouquetList.className} h-14 flex items-center border-b border-b-navactive-btn/20`}
       >
