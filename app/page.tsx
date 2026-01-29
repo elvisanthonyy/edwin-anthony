@@ -115,19 +115,19 @@ export default function Home() {
         </div>
         <div
           ref={workRef.ref}
-          className={`${workRef.isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-20"} transition-all duration-700 ease-in w-[85%] md:w-[43%] mt-5 md:mt-16}`}
+          className={`${workRef.isVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-20"} transition-all duration-700 ease-in w-[85%] md:w-[44%] mt-5 md:mt-16}`}
         >
           <WorkMain />
         </div>
         <div
           ref={resumeRef.ref}
-          className={`w-[85%] md:w-[43%] mb-0 md:mb-20 mt-16 ${resumeRef.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"} transition-all duration-700 ease-in`}
+          className={`w-[85%] md:w-[44%] mb-0 md:mb-20 mt-16 ${resumeRef.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-20"} transition-all duration-700 ease-in`}
         >
           <ResumeMain />
         </div>
         <div
           ref={contactRef.ref}
-          className={`${contactRef.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} transition-all duration-700 ease-in w-[88%] md:w-[45%]  md:mt-16}`}
+          className={`${contactRef.isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"} transition-all duration-700 ease-in w-[88%] md:w-[52%]  md:mt-16}`}
         >
           <ContactMe />
         </div>
