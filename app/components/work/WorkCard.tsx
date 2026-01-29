@@ -8,7 +8,7 @@ const WorkCard = () => {
     <div
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
-      className="flex mb-6 md:mb-0 w-full md:w-[288px] top-0 left-0 cursor-pointer relative h-[195px] rounded-3xl"
+      className="flex mb-6 mx-2 md:mb-0 w-full md:w-[288px] top-0 left-0 cursor-pointer relative h-[195px] rounded-3xl"
     >
       <div className="flex items-end w-full md:w-full h-full absolute bottom-0 left-0 rounded-3xl">
         <Image
