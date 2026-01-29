@@ -15,7 +15,7 @@ const WorkMain = () => {
       >
         Work
       </div>
-      <div className="flex md:mt-[48px]  mt-5 md:flex-row flex-col w-full h-100 md:h-auto  items-center md:items-end justify-between">
+      <div className="flex md:mt-[48px]  mt-5 md:flex-row flex-col w-full min-h-40  md:h-auto  items-center md:items-end justify-between">
         <WorkCard />
         <WorkCard />
       </div>

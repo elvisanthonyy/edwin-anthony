@@ -89,7 +89,7 @@ export default function Home() {
           setAngle(deg / 7);*/
         }}
         className="flex cursor-pointer 
-        transition-all ease-in duration-900 left-[50%] -translate-x-[50%] head-animation w-30 md:w-40 h-90 -top-15 md:-top-5 absolute mx-auto"
+        transition-all ease-in duration-900 left-[50%] -translate-x-[50%] head-animation w-35 md:w-40 h-90 -top-11 md:-top-5 absolute mx-auto"
         style={{
           transform: `rotate(${angle}deg) translateX(${pos.x}px)`,
         }}
@@ -102,7 +102,7 @@ export default function Home() {
           className="w-full"
         />
       </div>
-      <main className="w-full pt-60 md:pt-80 flex flex-col items-center">
+      <main className="w-full pt-65 md:pt-80 flex flex-col items-center">
         <InfoMain />
         <div className="w-[90%] md:w-[43%] illus-animation mt-10 md:mt-16">
           <Image
