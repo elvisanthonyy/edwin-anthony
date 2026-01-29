@@ -83,6 +83,16 @@ body {
   }
 }
 
+@keyframes about-animation-frames {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
 .info-animation {
   animation: info-animation-frames 3s ease-in-out;
 }
@@ -97,4 +107,8 @@ body {
 
 .illus-animation {
   animation: illus-animation-frames 4s ease-in-out;
+}
+
+.about-animation {
+  animation: about-animation-frames 2s ease-in-out;
 }
